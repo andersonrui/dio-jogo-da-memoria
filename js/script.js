@@ -84,10 +84,7 @@ function unflipAll() {
 
 function resetGame() {
     unflipAll();
-    hasFlippedCard = false;
-    firstCard = null, 
-    secondCard = null;
-    lockBoard = false;
+    resetBoard();
     matchCards = 0;
     attempts = 0;
     shuffle();
